@@ -40,7 +40,7 @@ import OtherModule
 executeMethod {
     switch Result(success: $0, failure: $1) {
     case .success:
-        // handle success
+        // handle success(let success):
     case .failure(let failure):
         // handle failure
     }
