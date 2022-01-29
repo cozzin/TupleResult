@@ -1,5 +1,5 @@
 # TupleResult
-A micro library that easily converts c-style tuple result into Swift.Result
+A micro library that easily converts c-style tuple result into `Swift.Result`
 
 In some cases, the result of the completion handler is returned in the form of response and error tuple. In Swift5 and later, `Swift.Result` makes writing code more intuitive. Using `TupleResult`, you can easily change the tuple result type to `Swift.Result` type.
 
@@ -49,7 +49,7 @@ executeMethod {
 
 ## 💻 Installation
 
-- [**Swift Package Manager**](https://swift.org/package-manager/)
+[**Swift Package Manager**](https://swift.org/package-manager/)
 
 1. In Xcode, open your project and navigate to **File** → **Swift Packages** → **Add Package Dependency...**
 2. Paste the repository URL (`https://github.com/cozzin/TupleResult.git`) and click **Next**.
